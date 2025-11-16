@@ -84,23 +84,23 @@ npm start
 ## 📡 API Endpoints
 
 Transactions
-GET /api/transactions/:userId - Get user transactions
+**GET /api/transactions/:userId** - Get user transactions
 
-POST /api/transactions - Create new transaction
+**POST /api/transactions** - Create new transaction
 
-DELETE /api/transactions/:id - Delete transaction
+**DELETE /api/transactions/:id** - Delete transaction
 
-GET /api/transactions/summary/:userId - Get financial summary
+**GET /api/transactions/summary/:userId** - Get financial summary
 
 ## Dream Savings
-GET /api/transactions/dream-savings/:userId - Get dream savings
+**GET /api/transactions/dream-savings/:userId** - Get dream savings
 
-POST /api/transactions/dream-savings/:userId - Add dream saving
+**POST /api/transactions/dream-savings/:userId** - Add dream saving
 
-DELETE /api/transactions/dream-savings/:userId - Delete dream saving
+**DELETE /api/transactions/dream-savings/:userId** - Delete dream saving
 
 ## Health Check
-GET /health - System health status
+**GET /health** - System health status
 
 ## 🔒 Security Features
 - Rate limiting (100 requests per 60 seconds)
@@ -113,11 +113,11 @@ GET /health - System health status
 
 ## ⚙️ Configuration
 
-- **Cron Job**
+ **Cron Job**
 - Automatically pings health endpoint every 14 minutes in production
 
 
-- **Rate Limiting**
+ **Rate Limiting**
  - Uses Redis for sliding window rate limiting
 
 
