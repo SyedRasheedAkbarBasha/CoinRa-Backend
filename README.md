@@ -83,7 +83,7 @@ npm start
 
 ## 📡 API Endpoints
 
-Transactions
+
 **GET /api/transactions/:userId** - Get user transactions
 
 **POST /api/transactions** - Create new transaction
