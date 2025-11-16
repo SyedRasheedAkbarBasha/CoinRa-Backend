@@ -1,4 +1,4 @@
-# Wallet Management System Backend
+# CoinRa Backend Code
 
 A Node.js-based backend system for managing personal finances, transactions, and dream savings with secure PostgreSQL database integration using Neon.
 
